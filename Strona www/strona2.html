@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl">
+
+	<head>
+		<meta http-equiv="Content-Type" content="application/xhtml+xml;charset=UTF-8" />
+		<title>Ćw. 3</title>
+		<link href="styl.css" media="screen" rel="stylesheet" title="main"/>
+		<link href="styl3.css" media="screen" rel="alternate stylesheet" title="inny"/>
+		<link href="styl2.css" media="print" rel="stylesheet"/>
+	</head>
+
+	<body>
+		<div id="menu" class="column">
+		<dl>
+			<dt>Menu</dt>
+				<dd> <a href="index.html">Zadanie 1</a>  </dd>
+				<dd> <a href="strona1.html">Zadanie 2</a> </dd>
+				<dd> <a href="strona2.html">Zadanie 3</a> </dd>
+				<dd> <a href="strona3.html">Zadanie 4</a> </dd>
+			<dt>Odnośniki</dt>
+				<dd><a href="#tabela">tabela</a> </dd>
+				<dd><a href="#lista">lista</a> </dd>
+				<dd><a href="#definicje">definicje</a> </dd>
+		</dl>	
+		</div>
+	<div id="kontener">
+		<div id="naglowek">
+			<p>Ćwiczenie 1.</p>
+		</div>
+		<div id="cialo">
+			<a name="tabela"> </a>
+			<h3>Tabela</h3>
+			<table border="1">
+                <thead>
+                        <tr>
+                                <th>index</th>
+                                <th>kolumna1</th>
+                                <th>kolumna2</th>
+                                <th>kolumna3</th>
+                        </tr>
+                </thead>
+
+                <tfoot>
+                        <tr>
+                                <th>Suma</th>
+                                <th>4</th>
+                                <th>okoń</th>
+                                <th>infinity</th>
+                        </tr>
+                </tfoot>
+
+                <tbody>
+                        <tr>
+                                <th>1</th>
+                                <td>wiersz1</td>
+                                <td>wiersz1</td>
+                                <td>wiersz1</td>
+                        </tr>
+
+                        <tr>
+                                <th>2</th>
+                                <td>wiersz2</td>
+								<td>wiersz2</td>
+                                <td rowspan="2">Coś tam</td>
+                        </tr>
+
+                        <tr>
+                                <th>3</th>								
+                                <td>wiersz3</td>
+                                <td>wiersz3</td>
+						</tr>
+
+                        <tr>
+                                <th>4</th>
+                                <td colspan="3">łączenie wierszy</td>
+
+                        </tr>
+                </tbody>
+			</table>
+
+				<h3>Lista</h3>
+				<a name="lista"> </a>
+                <ol>
+                        <li> Góra1 </li>
+                        <li> Góra2
+                                <ul>
+                                        <li> Wzgórze1
+                                                <ul>
+                                                        <li> Dolina1 </li>
+                                                        <li> Dolina2 </li>
+                                                </ul>
+                                        </li>
+                                </ul>
+                        </li>
+                        <li> Góra3 </li>
+                        <li> Góra4
+                                <ul>
+                                        <li> Wzgórze2 </li>
+                                        <li> Wzgórze3 </li>
+                                </ul>
+                        </li>
+                </ol>
+				
+			<br/> <br/>
+			<a name="definicje"></a>	
+			<h3>Definicje</h3>
+			<dl>
+				<dt>czołg</dt>
+					<dd>gąsienicowy wóz bojowy, przeznaczony do walki z&nbsp;siłami przeciwnika na krótkich i&nbsp;średnich dystansach za pomocą prowadzenia ognia na wprost.</dd>
+				<dt>lufa</dt>
+					<dd>zasadnicza część broni palnej[1], umożliwiająca nadanie pociskowi jednocześnie ruchu postępowego i&nbsp;obrotowego (lufy gwintowane) lub tylko postępowego (lufy gładkościenne) w&nbsp;odpowiednim kierunku.</dd>
+				<dt>broń</dt>
+					<dd> Zbiór rzeczy materialnych, stanowiących przedmioty do walki zbrojnej zaczepnej lub obronnej (broń wojskowa), polowania na zwierzynę (broń myśliwska), a&nbsp;także rywalizacji sportowej (broń sportowa). Nie jest możliwe ustalenie precyzyjnej definicji broni w&nbsp;tym znaczeniu.</dd>
+			</dl>
+			
+		</div>
+		<div id="validator">	
+			<p>
+				<a href="http://validator.w3.org/check?uri=referer"><img
+				src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+			</p>
+
+		</div>
+	</div>
+	</body>
+</html>
+
