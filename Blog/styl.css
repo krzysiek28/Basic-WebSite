@@ -1,0 +1,16 @@
+h1{
+	color:red;
+}
+h2{color:brown;}
+
+
+#blok{
+	margin-left: 50px
+}
+#style_List{
+	float: center;
+	top: 20px;
+	position: absolute;
+	right: 100px;
+	
+}

@@ -1,0 +1,16 @@
+*{
+	font-style: italic; 
+	color: white;
+	background-color: black;
+}
+
+#blok{
+	margin-left: 50px
+}
+
+#style_List{
+	float: center;
+	top: 20px;
+	position: absolute;
+	right: 100px;
+}
