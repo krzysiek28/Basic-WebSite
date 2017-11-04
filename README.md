@@ -1,2 +1,2 @@
-# Webowe
-pierwsza styczność z HTML5, CSS3, PHP i JavaScript
+# Web
+First conntact with HTML5, CSS3, PHP and JavaScript
